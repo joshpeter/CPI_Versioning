@@ -6,6 +6,7 @@ def Message processData(Message message) {
     if(messageLog != null){
         
         messageLog.addAttachmentAsString("ResponsePayload:", body, "text/plain");
+         messageLog.addAttachmentAsString("ResponsePayload1:", body, "text/plain");
      }
     return message;
 }
